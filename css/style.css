@@ -1,0 +1,78 @@
+:root {
+    --basic-red: #FB565A;
+    --basic-yellow:  #fce19d;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+    }
+  
+    a {
+      text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .main-header {
+        margin: 0;
+        padding: 0;
+        min-width: 1160px;
+        padding-top: 49px;
+    }
+    
+    .title {
+        margin: 0 auto;
+	    padding: 0;
+	    width: 1160px;
+        height: 60px;
+        color: var(--basic-yellow);
+        background-color: var(--basic-red);
+    }
+
+    .main-title {
+        padding-top: 20px;  
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .title2 {
+        margin: 0 auto;
+	    padding: 0;
+        width: 1160px;
+        height: 60px;
+        background-color: var(--basic-yellow);
+    }
+   
+    .catalog-list {
+        margin: 0 auto;
+	    padding: 0;
+        width: 1160px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 80px;
+        background-color: var(--basic-yellow);
+    }
+
+    .catalog-item {
+        display: flex;
+        gap: 40px;
+        row-gap: 40px;
+    }
+
+    .name-of-paysystem {
+        justify-content: space-between;
+    }
+
+    .procent {
+        color: var(--basic-red);
+    }    
+    
